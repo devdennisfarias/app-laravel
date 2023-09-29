@@ -1,0 +1,4 @@
+input[readonly="readonly"], input[readonly] {
+    box-decoration-break: none;
+}
+    
