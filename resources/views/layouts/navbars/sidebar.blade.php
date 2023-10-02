@@ -13,7 +13,7 @@
     <ul class="nav">
       <li class="nav-item">
         <a class="nav-link" href="{{ route('home') }}">
-          <i><img style="width:195px" src="{{ asset('material') }}/img/logo-nexus-horizontal.svg"></i>
+          <i><img style="width:195px" src="{{ asset('material') }}/img/logo-norteweb-horizontal.png"></i>
           <p><br></p>
         </a>
       </li>

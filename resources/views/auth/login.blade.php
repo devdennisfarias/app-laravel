@@ -1,10 +1,10 @@
-@extends('layouts.app', ['class' => 'off-canvas-sidebar', 'activePage' => 'login', 'title' => __('Nexus Operacional')])
+@extends('layouts.app', ['class' => 'off-canvas-sidebar', 'activePage' => 'login', 'title' => __('Norteweb Tecnologia')])
 
 @section('content')
 <div class="container" style="height: auto;">
   <div class="row align-items-center">
     <div class="col-md-9 ml-auto mr-auto mb-3 text-center">
-      <h3>{{ __('Faça Login para acessaro sistema') }} </h3>
+      <h3>{{ __('Faça Login para acessar o sistema') }} </h3>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
       <form class="form" method="POST" action="{{ route('login') }}">
@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="card-body">
-            <p class="card-description text-center">{{ __('Login de teste é: ') }} <strong>admin@nexus.com</strong> {{ __(' e a senha é: ') }}<strong>123456</strong> </p>
+            <p class="card-description text-center">{{ __('Login: ') }} <strong>contato@norteweb.com.br</strong><br> {{ __('senha: ') }}<strong>123456</strong> </p>
             <div class="bmd-form-group{{ $errors->has('email') ? ' has-danger' : '' }}">
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -34,7 +34,7 @@
                     <i class="material-icons">email</i>
                   </span>
                 </div>
-                <input type="email" name="email" class="form-control" placeholder="{{ __('Email...') }}" value="{{ old('email', 'admin@nexus.com') }}" required>
+                <input type="email" name="email" class="form-control" placeholder="{{ __('Email...') }}" value="{{ old('email', 'contato@norteweb.com.br') }}" required>
               </div>
               @if ($errors->has('email'))
               <div id="email-error" class="error text-danger pl-3" for="email" style="display: block;">

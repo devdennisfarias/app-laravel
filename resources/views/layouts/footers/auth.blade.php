@@ -5,7 +5,7 @@
         &copy;
         <script>
             document.write(new Date().getFullYear())
-        </script>, Nexus por
+        </script>, Norteweb por
         <a href="#" >Dennis Farias</a>
         </div>
     </div>
